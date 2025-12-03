@@ -1,0 +1,22 @@
+{
+  "name": "decentralized-social",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run --network localhost scripts/deploy.js",
+    "deploy:sepolia": "hardhat run --network sepolia scripts/deploy.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "chai": "^4.5.0",
+    "dotenv": "^16.6.1",
+    "ethers": "^6.9.0",
+    "hardhat": "^2.27.0"
+  },
+  "dependencies": {
+    "nft.storage": "^7.2.0"
+  }
+}
